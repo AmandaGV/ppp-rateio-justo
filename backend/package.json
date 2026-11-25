@@ -1,0 +1,23 @@
+{
+  "name": "rateiojusto-backend",
+  "version": "1.0.0",
+  "description": "API REST do RateioJusto: gestão e divisão proporcional de despesas compartilhadas",
+  "main": "src/server.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.4",
+    "mongoose": "^8.9.5",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
